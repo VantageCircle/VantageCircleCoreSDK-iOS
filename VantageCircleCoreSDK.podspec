@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                 LICENSE
               }
   s.author             = { "Vantage Circle" => "kinshuk@outlook.com" }
-  s.source       = { :git => "https://github.com/kinshukkashyap/VantageCircleCoreSDK-iOS.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/VantageCircle/VantageCircleCoreSDK-iOS.git", :tag => "#{s.version}" }
   s.public_header_files = "VantageCircleCore.framework/Headers/*.h"
   s.source_files = "VantageCircleCore.framework/Headers/*.h"
   s.vendored_frameworks = "VantageCircleCore.framework"
