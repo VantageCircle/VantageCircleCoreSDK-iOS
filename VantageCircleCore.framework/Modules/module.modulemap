@@ -1,0 +1,11 @@
+framework module VantageCircleCore {
+  umbrella header "VantageCircleCore.h"
+
+  export *
+  module * { export * }
+}
+
+module VantageCircleCore.Swift {
+    header "VantageCircleCore-Swift.h"
+    requires objc
+}
