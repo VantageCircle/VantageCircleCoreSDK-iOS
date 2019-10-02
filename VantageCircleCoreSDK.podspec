@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
                  Copyright 2019 Vantage Circle
                 LICENSE
               }
-  s.author             = { "$(git config user.name)" => "$(git config user.email)" }
-  s.source       = { :git => "$HOME/VantageCircleCoreDistribution.git", :tag => "#{s.version}" }
+  s.author             = { "Vantage Circle" => "kinshuk@outlook.com" }
+  s.source       = { :git => "https://github.com/kinshukkashyap/VantageCircleCoreSDK-iOS.git", :tag => "#{s.version}" }
   s.public_header_files = "VantageCircleCore.framework/Headers/*.h"
   s.source_files = "VantageCircleCore.framework/Headers/*.h"
   s.vendored_frameworks = "VantageCircleCore.framework"
